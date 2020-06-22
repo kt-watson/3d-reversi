@@ -1,0 +1,16 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "node-static": "^0.7.11"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "3d-reversi",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
