@@ -431,3 +431,15 @@ document.getElementById("undo").onclick = function(){
         history.pop();
     }
 }
+
+document.getElementById("undo").addEventListener("touchend", (event)=>{
+	document.getElementById("undo").click();
+});
+
+document.getElementById("taisen").addEventListener("touchend", (event)=>{
+	document.getElementById("taisen").click();
+});
+
+document.getElementById("pass-submit").addEventListener("touchend", (event)=>{
+	document.getElementById("pass-submit").click();
+});
